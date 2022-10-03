@@ -23,6 +23,7 @@ for row in financial_analysis:
     net_total += total
     changes = net_total - pre_prof
     average_changes = mean(changes)
+    #use max and min func
 
 output = f'''
 Financial Analysis
